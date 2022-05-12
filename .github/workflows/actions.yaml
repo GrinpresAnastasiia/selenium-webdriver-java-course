@@ -21,7 +21,7 @@ jobs:
       - uses: actions/setup-java@v2
         with:
           distribution: 'zulu'
-          java-version: 16
+          java-version: 11
           # Run mvn test
       - name: Run test with Maven
         working-directory: webdriver_java
